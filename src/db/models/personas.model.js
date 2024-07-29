@@ -7,7 +7,7 @@ class Persona extends Model {
         return {
             sequelize,
             tableName: PERSON_TABLE,
-            modelName: 'Person',
+            modelName: 'Persona',
             timestamps: true
         }
     }
